@@ -1,0 +1,150 @@
+html, body {
+  background-color: #ECECE9;
+  width: 100%;
+  height: 100%
+}
+
+h1 {
+  font-family:serif;
+ text-align:center;
+ font-size: 50px;
+ margin-bottom: 50px
+}
+
+h2 {
+  font-family: 'Caveat, sans-serif';
+  font-style:italic;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+
+hr {
+  margin: 5%
+}
+
+.bio_photo {
+  float: left;
+  margin-top: 10px;
+  margin-left:0;
+  margin-right:25px;
+  width: 35%;
+}
+
+.centered {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.centered_logo {
+  display: block;
+  max-width: 100%;
+  height: 20%;
+  margin: auto
+}
+
+/* .bio_text {
+  width: 65%;
+} */
+
+.header_clear {
+  height:100px
+}
+
+.linebreak {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.main_image {
+background-color: inherit;
+height: 100%;
+width: 100%;
+background-attachment: fixed;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover
+}
+
+.name_logo {
+font-family: serif;
+font-size: 3rem;
+margin-right: 35px
+}
+
+.nav_items {
+  float:right
+}
+
+#no_underline {
+  text-decoration: none;
+  color: black
+}
+
+.social_buttons {
+  width: 5%;
+  margin: 3%;
+  text-decoration: none
+}
+
+.social_menu {
+  display: block;
+  width: 65%;
+  margin: auto;
+  text-decoration: none
+}
+
+.triangle {
+  height: 0;
+  width: 0;
+  border-left: 100px solid transparent;
+  border-right: 500px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
+}
+
+.widescreen {
+  width: 100%
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    transform: opacity(1)
+  }
+  100% {
+    transform: translateY(0);
+    transform:opacity(0)
+  }
+}
+
+.Roboto {
+  margin-top: 10px;
+  margin-left:25px;
+  font-family:"Roboto,sans-serif";
+  font-style:normal
+}
+
+.sliding_text {
+  /* This section calls the slideInFromBottom animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromBottom;
+  background: transparent;
+  padding: 20px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  h2 {
+    display: none;
+  }
+}
