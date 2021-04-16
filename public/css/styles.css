@@ -137,11 +137,11 @@ margin-right: 35px
   padding: 20px;
 }
 
-@media only screen and (max-device-width: 1366px) {
+/* @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
   }
-}
+} */
 
 @media only screen and (max-width: 950px) {
   h2 {
