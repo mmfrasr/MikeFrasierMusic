@@ -1,11 +1,34 @@
 {
   "name": "mikefrasiermusic",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mike Frasier Music",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Mike Frasier",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "body-parser-xml": "^2.0.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "file-system": "^1.2.9",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.19",
+    "mongoose-findorcreate": "^3.0.0",
+    "mongoose-simple-random": "^0.4.1",
+    "node-metronome": "0.0.12",
+    "open": "^7.3.1",
+    "opensheetmusicdisplay": "^0.8.7",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-pdf": "^5.1.0",
+    "react-scripts": "^4.0.3",
+    "tonal": "^2.2.2",
+    "vexflow": "^3.0.9"
+  }
 }
