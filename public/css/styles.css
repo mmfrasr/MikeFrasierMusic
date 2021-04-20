@@ -65,10 +65,12 @@ hr {
 background-color: inherit;
 height: 100%;
 width: 100%;
+/* background-size: 100%; */
+/* background-size: cover */
 background-attachment: fixed;
 background-position: top;
 background-repeat: no-repeat;
-background-size: cover
+
 }
 
 .name_logo {
@@ -137,11 +139,11 @@ margin-right: 35px
   padding: 20px;
 }
 
-/* @media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
   }
-} */
+}
 
 @media only screen and (max-width: 950px) {
   h2 {
