@@ -10,40 +10,44 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
+const year = new Date().getFullYear();
+
 app.get("/", function(req, res){
-  res.render("index", {});
+
+  res.render("index", {year});
 });
 
 app.get("/bio", function(req, res){
-  res.render("bio", {});
+
+  res.render("bio", {year});
 });
 
 app.get("/resume", function(req, res){
-  res.render("resume", {});
+  res.render("resume", {year});
 });
 
 app.get("/tuba", function(req, res){
-  res.render("tuba", {});
+  res.render("tuba", {year});
 });
 
 app.get("/piano", function(req, res){
-  res.render("piano", {});
+  res.render("piano", {year});
 });
 
 app.get("/news", function(req, res){
-  res.render("news", {});
+  res.render("news", {year});
 });
 
 app.get("/media", function(req, res){
-  res.render("media", {});
+  res.render("media", {year});
 });
 
 app.get("/theory", function(req, res){
-  res.render("music theory", {});
+  res.render("music theory", {year});
 });
 
 app.get("/contact", function(req, res){
-  res.render("contact", {});
+  res.render("contact", {year});
 });
 
 app.listen(process.env.PORT || 3000, function() {

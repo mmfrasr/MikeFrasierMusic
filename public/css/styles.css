@@ -164,4 +164,16 @@ margin-right: 35px
   h2 {
     display: none;
   }
+  .contact {
+    content: url(images/IMG_2216.jpeg)
+  }
+  .piano {
+    content: url(images/Piano/Piano Hands.png)
+  }
+  .tuba {
+    content: url(images/Cover Photo Presidio 2.png)
+  }
+  .theory {
+    content: url(images/Tuba Shot Selection.png)
+  }
 }
